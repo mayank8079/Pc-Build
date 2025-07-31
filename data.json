@@ -1,0 +1,51 @@
+{
+    "products": [
+        {
+            "id": "prod1",
+            "name": "Gaming Pro",
+            "description": "High-performance gaming PC for competitive players",
+            "price": 319000,
+            "category": "prebuild",
+            "image": "assets/images/gaming-pc.jpg",
+            "specs": [
+                "Intel Core i9-14900K",
+                "RTX 5070Ti 16GB GDDR7",
+                "Corsair Vengeance 64GB (32GBx2) DDR5 6000MHz",
+                "Samsung 9100 Pro 2TB M.2 NVMe Gen5",
+                "ASUS ROG STRIX Z890-E GAMING WIFI",
+                "NZXT Kraken Elite 420 RGB with IPS LCD Display (Black)",
+                "Gigabyte Aorus Elite 1000W ATX 3.1 1000 Watt 80 Plus Platinum",
+                "HYTE Y70 Touch Infinite Dual Chamber ATX"
+            ]
+        },
+        {
+            "id": "prod2",
+            "name": "Intel Core i9-13900K",
+            "description": "24 cores (8P + 16E), up to 5.8GHz",
+            "price": 589.99,
+            "category": "processor",
+            "image": "assets\/images\/default-component.jpg",
+            "specs": [
+                "24 cores",
+                "5.8GHz boost",
+                "LGA1700 socket"
+            ]
+        }
+    ],
+    "orders": [
+        {
+            "id": "ord1",
+            "customer_name": "John Doe",
+            "date": "2023-06-15",
+            "items": [
+                {
+                    "name": "Gaming Pro",
+                    "price": 1999.99,
+                    "quantity": 1
+                }
+            ],
+            "total": 1999.99,
+            "status": "Delivered"
+        }
+    ]
+}
