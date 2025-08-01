@@ -52,7 +52,7 @@
                 </div>
 
                 <?php session_start(); ?>
-                <a href="<?php echo !isset($_SESSION['user']) ? 'Login/login.html':''  ; ?>">
+                <a href="<?php echo !isset($_SESSION['user']) ? 'Login/login.php':''  ; ?>">
                   
                         
                         <i class="fa fa-user"></i>
